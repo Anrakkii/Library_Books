@@ -1,6 +1,6 @@
 <?php
 
-include("data_class.php");
+include("./data_class.php");
 
 $userid=$_GET['userid'];
 $bookid=$_GET['bookid'];

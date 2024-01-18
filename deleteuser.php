@@ -1,5 +1,5 @@
 <?php
-include("data_class.php");
+include("./data_class.php");
 
 $delteuser=$_GET['useriddelete'];
 

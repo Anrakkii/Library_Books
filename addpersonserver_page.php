@@ -1,6 +1,6 @@
 <?php
 
-include("data_class.php");
+include("./data_class.php");
 
 $addnames=$_POST['addname'];
 $addpass= $_POST['addpass'];

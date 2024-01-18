@@ -7,12 +7,12 @@
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
       <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <style>
 
     body{
-        background-image: url('images/library.jpg')
+        background-image: url('./images/library.jpg')
         
     }
 
@@ -98,7 +98,7 @@ if(!empty($_REQUEST['msg'])){
                     </form>
                 </div>
                 <div class="col-md-6 login-form-1">
-                    <h3>Đăng nhập quyền Học sinh</h3>
+                    <h3>Đăng nhập quyền Người dùng</h3>
                     <form action="login_server_page.php" method="get">
                         <div class="form-group">
                             <input autocomplete="off" type="text" class="form-control" name="login_email" placeholder="Email tài khoản *" value="" />
