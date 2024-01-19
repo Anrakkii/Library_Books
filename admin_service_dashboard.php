@@ -150,13 +150,13 @@ td, a{
     <body >
 
     <?php
-   include("data_class.php");
+   include("./data_class.php");
 
 $msg="";
 
-   if(!empty($_REQUEST['msg'])){
-    $msg=$_REQUEST['msg'];
- }
+if(!empty($_REQUEST['msg'])){
+$msg=$_REQUEST['msg'];
+}
 
 if($msg=="done"){
     echo "<div class='alert alert-success' role='alert'>Sucssefully Done</div>";

@@ -35,7 +35,7 @@ class data extends db {
         $this->type=$type;
 
 
-         $q="INSERT INTO userdata(id, name, email, pass,type)VALUES('','$name','$email','$pasword','$type')";
+         $q="INSERT INTO userdata(name, email, pass,type)VALUES('$name','$email','$pasword','$type')";
 
         if($this->connection->exec($q)) {
             header("Location:admin_service_dashboard.php?msg=New Add done");
@@ -294,10 +294,10 @@ class data extends db {
         if($this->connection->exec($q)){
     
             
-           header("Location:admin_service_dashboard.php?msg=done");
+           header("Location:otheruser_dashboard.php?msg=done");
         }
         else{
-           header("Location:admin_service_dashboard.php?msg=fail");
+           header("Location:otheruser_dashboard.php?msg=fail");
         }
     }
 
